@@ -1,0 +1,47 @@
+Excel SellableSeatCategory Column,Oracle PRICING_PROGRAM_CODE,SeatMapEngine.SeatMap.SeatType,Display Seat Type,SharesSeatIndicator,EDoc Code,Description
+ECONOMYPLUSEXIT,EPE,,,,,Economy Plus Exit
+ECONOMYPLUS,EPS,,,,,Economy Plus Standard
+PRIMEPLUSLEGROOM,PEF,PrimePlusLegRoom,10V,V,ELR,Prime Plus Leg Room
+PRIMELEGROOM,PEL,PrimeLegRoom,9V,V,ELR,Prime Leg Room
+PRIME,EPL,EPlusPrime,11V,V,EPU,EPlus-Prime
+PRIMEPLUS,EPF,EPlusPrimePlus,12V,V,EPU,EPlus-PrimePlus
+PRIMEEXIT,PSL,Prime,1T,T,PSL,Premium Seat Limited Recline
+PRIMEPLUSEXIT,PSF,PrimePlus,2T,T,PSF,Premium Seat Full Recline
+PRIMEBULKHEAD,BHS,BulkheadPrime,6Q,Q,BHS,Bulkhead Standard Seat
+PRIMEPLUSBULKHEAD,BHP,BulkheadPrimePlus,7Q,Q,BHP,Bulkhead Premium Seat
+PSTWOCABINFIRST,018,,,,,Premium Seat-twocabin-first
+PSTWOCABINFIRSTBH,019,,,,,Premium seat-twocabin-first-bulkhead
+PSTWOCABINFIRSTEXIT,020,,,,,Premium seat-twocabin-first-exit
+PSTHREECABINFIRST,021,,,,,Premium seat-threecabin-first
+PSTHREECABINFIRSTBH,022,,,,,Premium seat-threecabin-first-bulkhead
+PSTHREECABINFIRSTEXIT,023,,,,,Premium seat-threecabin-first-exit
+STANDARDPRIMEPLUS,SPP,StandardPrimePlus,2Z,,BSA/ASA,StandardPrimePlus
+STANDARDPRIME,SPE,StandardPrime,1Z,,BSA/ASA,StandardPrime
+STANDARDPREFERREDZONE,SPZ,StandardPreferredZone,11Z,Z,PZA,StandardPreferredZone
+STANDARDPREFERREDEXIT,SZX,StandardPreferredExit,13Z,Z,PZA,StandardPreferredExit - standard preferred zone exit seat
+STANDARDPREFERREDEXITPLUS,SXZ,StandardPreferredExitPlus,12Z,Z,PZA,StandardPreferredExitPlus - standard preferred zone exit seat with recline
+STANDARDPREFERREDBULKHEAD,SBZ,StandardPreferredBulkheadPlus,14Z,Z,PZA,StandardPreferredBulkheadPlus - standard preferred zone bulkhead seat with storage
+STANDARDPREFERREDBULKHEADPLUS,SZB,StandardPreferredBulkhead,15Z,Z,PZA,#N/A
+MERCHANDISERESERVED,MRS,MerchandiseReserved,,,,MerchandiseReserved
+STANDARDPRIMEEXIT,SPX,,,,,StandardPrimeExit
+STANDARDPRIMEEXITPLUS,SXP,,,,,StandardPrimeExitPlus
+STANDARDPRIMEBULKHEADPLUS,SBP,,,,,StandardPrimeBulkheadPlus
+STANDARDPRIMEBULKHEAD,SPB,,,,,StandardPrimeBulkhead
+PREMIUMPRIMEPLUS,OPP,PremiumPrimePlus,1W,V,EPF,PremiumPrimePlus - Premium Economy seat with standard recline
+PREMIUMBULKHEAD,OPB,PremiumPrimeBulkhead,2W,Q,BHS,PremiumBulkhead - Premium Economy bulkhead seat with no storage
+PREMIUMBULKHEADPLUS,OBP,PremiumPrimeBulkhead,2W,Q,BHS,PremiumBulkheadPlus - Premium Economy seat with storage
+PREMIUMEXIT,OPE,PremiumPrimeExit,3W,T,PSF,PremiumExit - Premium Economy exit seat with limited recline
+PREMIUMEXITPLUS,OEP,PremiumPrimeExit,3W,T,PSF,PremiumExitPlus - Premium Economy exit seat with standard recline
+PRIMEBUSINESS,PBS,PrimeBusiness,4W,J,PBS,PrimeBusiness
+(BulkHead Excel Column),N/A,Bulkhead,5Q,Q,,#N/A
+(Exit Excel Column),N/A,Exit,4E,E,,#N/A
+(Blocked Excel Column),N/A,Blocked,,P,,#N/A
+N/A,CZS,ComfortZone,,,CZS,#N/A
+N/A,ELR,PrimePlusLegRoom,10V,V,ELR,#N/A
+N/A,EBL,EPlusBulkheadPrime,,V,EPU,EPlus-PrimeBulkhead
+N/A,EBF,EPlusBulkheadPrimePlus,,V,EPU,EPlus-PrimePlusBulkhead
+N/A,EPU,EPlusPrime,11V,V,EPU,EPlus-PrimePlus
+N/A,EEL,EPlusExitPrime,,T,EPU,EPlus-PrimeExit
+N/A,EEF,EPlusExitPrimePlus,,T,EPU,EPlus-PrimePlusExit
+N/A,ASA,SpecialSeat,,,ASA,#N/A
+N/A,N/A,Preferred,8V,V,,#N/A

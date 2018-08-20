@@ -1,0 +1,4 @@
+SeatMap,VerticalGridNumber,HorizontalGridNumber,ItemType,Seat Number,SeatLetter,CabinType,SellableSeatCategory,PermanentlyBlocked,Sellable,EliteZone,Bulkhead,Exit,LimitedRecline,MoveableArmrest,Aisle,Middle,Window,LeftAisle,LeftMiddle,LeftWindow,RightAisle,RightMiddle,RightWindow,CenterAisle,CenterMiddle,Under15YrsOld,PetInCabin,PrisonerGuard,DisabledPassenger,LapInfant
+77W,1001,2,AISLE,,,F,,,,,X,,,,,,,,,,,,,,,,,,,
+77W,1001,3,GALLEY,3,A,F,,,,,X,,,,,,,,,,,,,,,,,,,
+77W,1001,4,GALLEY,3,B,F,,,,,,X,,,,,,,,,,,,,,,,,,

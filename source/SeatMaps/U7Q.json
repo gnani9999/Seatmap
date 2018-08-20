@@ -1,0 +1,180 @@
+{
+	"Id": "U7Q",
+	"Description": "U7Q",
+	"NumberOfCabins": 2,
+	"Active": 1,
+	"EquipmentTypeId": 4234,
+	"EffectiveDate": "2015-09-24",
+	"DiscontinueDate": "2015-09-24",
+	"TravelStartDate": "2015-09-24",
+	"TravelEndDate": "2015-09-24",
+	"SharesSeatmap": "U7q",
+	"SeatmapPairDescription": "U7q",
+	"SeatmapPairActive": "1",
+	"EquipSeatmapId": 11054,
+	"SeatmapPairEffectiveDate": "2014-09-24",
+	"SeatmapPairDiscontinueDate": "2015-09-24",
+	"SeatmapPairTravelStartDate": "2014-09-24",
+	"SeatmapPairTravelEndDate": "2015-09-24",
+	"SharesCommonSeatmap": "",
+	"IsCommonSeatmap": "Y",
+        "CommonSeatmapId":"" ,
+        "Cabin1ClassCode": "F",
+        "Cabin1Count": 1,
+        "Cabin2ClassCode": "Y",
+        "Cabin2Count": 1,
+  
+"Cabins":[
+  {
+
+  "Cabin1": [
+     {
+      "CabinType": "F",
+      "RowCount": 1,
+      "AisleCount": 1,
+      "SeatCount": 2,
+	  
+  "Seats":[
+	  {
+      "Seat1": [
+        {
+          "RowNumber": 1,
+          "SeatLetter": "A",
+          "Pitch": 0,
+          "Width": 0,
+          "Recline": 0,
+          "PricingProgramCodes": [
+            {
+              "PricingProgramCode": "Epf",
+              "PricingEffectiveDate": "2014-09-24",
+              "PricingDiscontinueDate": "2015-09-24",
+              "PricingTravelStartDate": "2014-09-24",
+              "PricingTravelEndDate": "2015-09-24",
+              "PricingProgramDetailId": 264,
+              "Fee": 0,
+              "Currency": "Us",
+              "MileRangeLower": 0,
+              "MileRangeUpper": 9999,
+              "EliteStatusCode": 1
+            }
+          ],
+        "SeatCharacteristicCodes": [
+            {
+              "Code": "FBF",
+               "miniItems": 1,
+              "uniqueItems" :true
+            },
+            {
+              "Code" :  "PRG",
+              "miniItems": 1,
+              "uniqueItems" :true
+            }
+        ],
+          "SeatChrEffectiveDate": "2014-09-24",
+          "SeatChrDiscontinueDate": "2015-09-24",
+          "SeatChrTravelStartDate": "2014-09-24",
+          "SeatChrTravelEndDate": "2015-09-24"
+        }
+	],
+      "Seat2": [
+        {
+          "RowNumber": 1,
+          "SeatLetter": "B",
+          "Pitch": 0,
+          "Width": 0,
+          "Recline": 0,
+         "PricingProgramCodes": [
+            {
+              "PricingProgramCode": "Epf",
+              "PricingEffectiveDate": "2014-09-24",
+              "PricingDiscontinueDate": "2015-09-24",
+              "PricingTravelStartDate": "2014-09-24",
+              "PricingTravelEndDate": "2015-09-24",
+              "PricingProgramDetailId": 264,
+              "Fee": 0,
+              "Currency": "Us",
+              "MileRangeLower": 0,
+              "MileRangeUpper": 9999,
+              "EliteStatusCode": 1
+            }
+          ],
+          "SeatCharacteristicCodes": [
+             {
+              "Code": "FBF",
+              "miniItems": 1,
+              "uniqueItems" :true
+            },
+            {
+               "Code" : "PRG",
+               "miniItems": 1,
+               "uniqueItems": true
+            }
+            ],
+          "SeatChrEffectiveDate": "2014-09-24",
+          "SeatChrDiscontinueDate": "2015-09-24",
+          "SeatChrTravelStartDate": "2014-09-24",
+          "SeatChrTravelEndDate": "2015-09-24"
+		}
+       ]
+	  
+	  }
+	]
+   }
+ ],
+  
+ "Cabin2": [ 
+    {
+      "CabinType": "Y",
+      "RowCount": 1,
+      "AisleCount": 1,
+      "SeatCount": 2,
+	  
+    "Seats":[
+	  {
+       "Seat1": [
+        {
+          "RowNumber": 25,
+          "SeatLetter": "K",
+          "Pitch": 0,
+          "Width": 0,
+          "Recline": 0,
+          "PricingProgramCodes": [
+            {
+              "PricingProgramCode": "Epf",
+              "PricingEffectiveDate": "2014-09-24",
+              "PricingDiscontinueDate": "2015-09-24",
+              "PricingTravelStartDate": "2014-09-24",
+              "PricingTravelEndDate": "2015-09-24",
+              "PricingProgramDetailId": 264,
+              "Fee": 0,
+              "Currency": "Us",
+              "MileRangeLower": 0,
+              "MileRangeUpper": 9999,
+              "EliteStatusCode": 1
+            }
+          ],
+           "SeatCharacteristiCodes": [
+            {
+              "Code": "FBF",
+              "miniItems": 1,
+              "uniqueItems" :true
+            },
+            {
+              "Code": "PRG",
+              "miniItems": 1,
+              "uniqueItems" :true
+            }
+            ],  
+          "SeatChrEffectiveDate": "2015-09-24",
+          "SeatChrDiscontinueDate": "2015-09-24",
+          "SeatChrTravelStartDate": "2014-09-24",
+          "SeatChrTravelEndDate": "2015-09-24"			
+         }
+       ]
+	  }
+	 ]
+    }
+   ]
+  }
+ ] 
+}

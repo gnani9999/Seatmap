@@ -1,0 +1,211 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "ICR SeatMap",
+  "description": "Seat map information for given ICR",
+  "type": "object",
+  "properties": {
+    "Id": {
+	  "description": "The unique identifier for a product",
+      "type": "string"
+    },
+    "Description": { 
+	  "description": "Unique identifier for a seat map, always 3 characters for example AAA BBB B7A B7B",
+      "type": "string"
+    },
+    "NumberOfCabins": {
+	  "description": "Total Number of Cabins in the flight",
+      "type": "integer"
+    },
+    "Active": {
+	  "description": "It defines whether the seat map is active or not",
+      "type": "integer"
+    },
+    "EquipmentTypeId": {
+	  "description": "Type of aircraft: Boeing 777-200; Airbus A319",
+      "type": "integer"
+    },
+    "EffectiveDate": {
+	  "description": "The date from which the ICR is Effective ",
+      "type": "date-time"
+    },
+    "DiscontinueDate": {
+	  "description": "The date from which the ICR is Discontinued",
+      "type": "date-time"
+    },
+    "SharesSeatmap": {
+	  "description": "Same as Seat engine ICR – SHARES also has a SHARES seat map equivalent with same ICR",
+      "type": "string"
+    },
+    "SeatmapPairDescription": {
+	
+	  "description": "ICR and matching aircraft type For example ICR U7R and Aircraft type Boeing 777-200",
+      "type": "string"
+    },
+    "SeatmapPairActive": {  
+	  "description": "ICR and matching tail/ship assigned to flight number",
+      "type": "integer"
+    },
+    "EquipSeatmapId": {
+	  "description": "Seat engine ICR for seat map and corresponding equipment type for ICR",
+      "type": "integer"
+    },
+    "SharesCommonSeatmap": {
+	  "description": "Common map linked to active map",
+      "type": "string"
+    },
+    "IsCommonSeatmap": {
+	  "description": "True or False to check if seat map for flight is common map",
+      "type": "string"
+    },
+    "CommonSeatmapId": { 
+	  "description": "Description of Common map ICR ",
+      "type": "integer"
+    },
+
+      "Cabins": {
+      "type": "array",
+      "items": 
+        {
+          "type": "object",
+          "properties": {
+            "CabinType": {
+			  "description": "Describes the type of cabin Like F as First class",
+              "type": "array"
+            },
+            "RowCount": {
+			  "description": "Row count of cabin include non-seat row – i.e. Closet, Lavatory etc",
+              "type": "integer"
+            },
+            "AisleCount": {
+			  "description": "Count of Aisles- Aisle refers to the space between seats on an airplane where people can walk",
+              "type": "integer"
+            },
+            "SeatCount": {
+			  "description": "Seat Count Within a Cabin",
+              "type": "integer"
+            },
+            "Seats": { 
+              "type": "array",
+              "items": 
+                {
+                  "type": "object",
+                  "properties": {
+                    "RowNumber": { "description": "RowNumber used to identify the row within the cabin like 25 in 25Y",
+                      "type": "integer"
+                    },
+                    "SeatLetter": { "description": "SeatLetter is used to identify the particular seat within the cabin like K ",
+                      "type": "string"
+                    },
+                    "Pitch": { "description": "Measure Of Leg Room That Refers To The Space Between A Point On One Seat And The  Same Point On The Seat In Front Of It",
+                      "type": "integer"
+                    },
+                    "Width": { "description": "Distance Between The Inner Sides Of The Armrests On A Seat",
+                      "type": "integer"
+                    },
+                    "Recline": { "description": "The Distance Between A Seat Back In Its Full Upright And Full Recline Position",
+                      "type": "integer"
+                    },
+                    "PricingProgramCodes": { 
+			      "type": "array",
+                      "items": 
+                        {
+                          "type": "object",
+                          "properties": {
+                            "PricingProgramCode": {
+							"description": "Pricing based on the Pricing program code like EPE-Economy Plus Exit",
+                              "type": "string"
+                            },
+                           
+                            "PricingProgramDetailId": { 
+							"description": "Pricing program detail Id based on pricing program code and Mile range for example Id 405 for code MRS in range 0-9999 ",
+                              "type": "integer"
+                            },
+                            "Fee": {
+							"description": "Fee generated based on Pricing program Detail Id",
+                              "type": "integer"
+                            },
+                            "Currency": { 
+							"description": "Type of Currency ",
+                              "type": "string"
+                            },
+                            "MileRangeLower": {
+							"description": "Miles range Lower Limit",
+                              "type": "integer"
+                            },
+                            "MileRangeUpper": {
+							"description": "Miles range Upper Limit",
+                              "type": "integer"
+                            },
+                            "EliteStatusCode": {
+							"description": "Describes the Elite status of Passenger like Silver-1,Gold -2",
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "PricingProgramCode",
+                            "PricingProgramDetailId",
+                            "Fee",
+                            "Currency",
+                            "MileRangeLower",
+                            "MileRangeUpper",
+                            "EliteStatusCode"
+                          ]
+                        }                      
+                    },
+                   "SeatCharacteristicCodes": {
+                                      "type": "array",
+                                      "items": [
+                                        {
+                                          "type": "object",
+                                          "properties": {
+                                            "Code": {
+                                              "type": "string"
+                                            }
+                                          },
+                                          "required": [
+                                            "Code"
+                                          ]
+                                        }
+                                          ]
+                                        }
+                   },
+                  "required": [
+                    "RowNumber",
+                    "SeatLetter",
+                    "Pitch",
+                    "Width",
+                    "Recline"                                    
+                  ]
+                }
+            }
+          },
+          "required": [
+            "CabinType",
+            "RowCount",
+            "AisleCount",
+            "SeatCount",
+            "Seats"
+          ]
+        }
+    }
+  },
+  "required": [
+    "Id",
+    "Description",
+    "NumberOfCabins",
+    "Active",
+    "EquipmentTypeId",
+    "EffectiveDate",
+    "DiscontinueDate",
+    "TravelStartDate",
+    "TravelEndDate",
+    "SharesSeatmap",
+    "SeatmapPairDescription",
+    "SeatmapPairActive",
+    "EquipSeatmapId",    
+    "SharesCommonSeatmap",
+    "IsCommonSeatmap",
+    "CommonSeatmapId",    
+    "Cabins"
+  ]
+}

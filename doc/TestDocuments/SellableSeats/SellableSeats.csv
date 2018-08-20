@@ -1,0 +1,16 @@
+SeatMap,VerticalGridNumber,HorizontalGridNumber,ItemType,Seat Number,SeatLetter,CabinType,SellableSeatCategory,PermanentlyBlocked,Sellable,EliteZone,Bulkhead,Exit,LimitedRecline,MoveableArmrest,Aisle,Middle,Window,LeftAisle,LeftMiddle,LeftWindow,RightAisle,RightMiddle,RightWindow,CenterAisle,CenterMiddle,Under15YrsOld,PetInCabin,PrisonerGuard,DisabledPassenger,LapInfant,Blocked
+77W,1000,1,DAAFRONTR,1,A,F,,,,,,,,,,,X,,,X,,,,,,X,X,X,X,X,
+77W,1000,2,AISLE,,,F,,,,,,X,,,,,,,,,,,,,,,,,,,
+77W,1000,3,DAAFRONTL,1,D,F,,,,,,X,,,X,,,,,,,,,X,,X,X,X,X,X,
+77W,1000,4,DAAFRONTR,1,G,F,,,,,,,,,X,,,,,,,,,X,,X,X,X,X,X,
+77W,1000,5,AISLE,,,F,,,,,,,,,,,,,,,,,,,,,,,,,
+77W,1000,6,DAAFRONTL,1,L,F,,,,,X,,,,,,X,,,,,,X,,,X,X,X,X,X,
+77W,1001,1,DAARIGHT,2,A,F,,,,,,,,,,,X,,,X,,,,,,X,X,X,X,X,
+77W,1001,2,AISLE,,,F,,,,,X,,,,,,,,,,,,,,,,,,,,
+77W,1032,10,SEAT,31,J,Y,StandardPrimePlus,,,,,,,X,X,,,,,,X,,,,,X,X,X,X,X,
+77W,1000,4,DAAFRONTL,1,E,F,,,,,,,,,X,,,,,,,,,X,,X,X,X,X,X,X
+77W,1002,4,DAAFRONTL,3,D,F,StandardPreferredZone,,,,,,,,,,,,,,,,,X,,X,X,X,X,X,X
+77W,1002,4,DAAFRONTL,3,E,F,PrimePlusLegRoom,,,,,,,,,,,,,,,,,X,,X,X,X,X,X,X
+77W,1,3,AISLE,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+77W,1,4,LAV,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+77W,1,6,GALLEY,,,,,,,,,,,,,,,,,,,,,,,,,,,,

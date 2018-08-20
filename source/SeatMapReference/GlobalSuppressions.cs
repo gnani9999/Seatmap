@@ -1,0 +1,11 @@
+﻿// <copyright file="GlobalSuppressions.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
+
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("StyleCop.CSharp.DocumentationRules", "SA1652:Enable XML documentation output", Justification = "not required", Scope = "namespace", Target = "~N:SeatMapReference")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Usage", "CA2227:Collection properties should be read only", Justification = "Added in model properties", Scope = "member", Target = "~P:SeatMapReference.SeatMapModels.SeatMap.Cabins")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("StyleCop.CSharp.DocumentationRules", "SA1652:Enable XML documentation output", Justification = "not required")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Usage", "CA2227:Collection properties should be read only", Justification = "As it is not a read only property, we are using get and set both", Scope = "member", Target = "~P:SeatMapReference.SeatMapModels.Cabin.Seats")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Globalization", "CA1305:Specify IFormatProvider", Justification = "It will be always same in our case so we dont need to provide IFormatter for it", Scope = "member", Target = "~M:SeatMapReference.SeatMapModels.Seat.#ctor(System.String,System.String,System.String,System.String,System.String,System.String)")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Usage", "CA2227:Collection properties should be read only", Justification = "As it is not a read only property, we are using get and set both", Scope = "member", Target = "~P:SeatMapReference.SeatMapModels.Seat.Characteristics")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Usage", "CA2227:Collection properties should be read only", Justification = "As it is not a read only property, we are using get and set both", Scope = "member", Target = "~P:SeatMapReference.SeatMapModels.SellableSeat.SellablePropertiesList")]

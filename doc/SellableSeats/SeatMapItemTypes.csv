@@ -1,0 +1,27 @@
+ItemType,ItemTypeCode,SeatCharacteristicCode,SeatAttribute,SeatType,ItemDescription
+AISLE,A,,,,AISLE
+CLOSET,C,,Closet,,CLOSET
+DISCARDED,,,,,DISCARDED
+E SEAT,,,,,E SEAT
+EXIT,X,,Exit,Exit  (Inoperative),EXIT
+FBRIGHT,,FBR,,,Flat Bed Right Orientation
+FBLEFT,,FBL,,,Flat Bed Left Orientation
+FBFRONT,,FBF,,,Front Facing Flatbed
+FBBACK,,FBB,,,Back Facing Flatbed
+FBRIGHT1,,FBR1,,,Right Orientation Low Pitch
+FBRIGHT2,,FBR2,,,Right Orientation High Pitch
+FBLEFT1,,FBL1,,,Left Orientation Low Pitch
+FBLEFT2,,FBL2,,,Left Orientation High Pitch
+GALLEY,G,,Galley,,GALLEY
+LAV,L,,Lavatory,,LAV
+A LAV,V,,Lavatory,,A LAV
+B SEAT,B,,,Seat (Occupied),B SEAT
+SEAT,,,,,SEAT
+STAIRS,T,,Stairs,,STAIRS
+SPACER,Z,,Space,,SPACER
+DAAFRONTR,,DAFR,,,Direct Access Front Facing access on Right
+DAAFRONTL,,DAFL,,,Direct Access Front access on Left
+DAARIGHT,,DAR,,,DAA angled to right
+DAALEFT,,DAL,,,DAA angled to left
+DAAFRONTRM,,DAFRM,,,Direct Aisle Access Front Facing Right Middle
+???,LD,,Lavatory (Disablility),,???
